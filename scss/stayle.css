@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+header {
+  background: #fff;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-left: 100px;
+}
+
+.nav-1 li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-1 li a:hover {
+  color: rgb(220, 120, 11);
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.but-1 {
+  margin-left: auto;
+}
+
+.but-1 {
+  padding: 10px 20px;
+  background: rgb(220, 120, 11);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.but-1:hover {
+  background: red;
+  transition: 0.5s;
+}
+
+#hero {
+  margin-top: 100px;
+}
+
+.hero-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-1 img {
+  width: 800px;
+}
+
+.hero-text h1 {
+  font-family: Philosopher;
+  font-weight: 700;
+  font-size: 48.83px;
+  color: #000000;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin: 20px 0;
+}
+
+.but-2 {
+  padding: 10px 20px;
+  background: rgb(255, 254, 253);
+  color: #dcb119;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.but-2:hover {
+  background: rgb(220, 120, 11);
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+.card {
+  width: 300px;
+  height: 228px;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.621);
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  margin-bottom: 70px;
+}
+
+.p-1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #dcb119;
+}
+
+.h-1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.menu-text {
+  margin-top: 20px;
+}
+
+.menu-text h1 {
+  font-family: Philosopher;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.menu-text p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-top: 10px;
+}
+
+.mne {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.crd-2 {
+  width: 360px;
+  height: 446px;
+  top: 2093px;
+  left: 150px;
+  opacity: 1;
+  border-width: 1px;
+  padding: 20px;
+}
+
+.img-1 {
+  width: 320px;
+}
+
+.crd-2:hover {
+  box-shadow: 1px 1px 10px gray;
+  transition: 0.4s;
+}
+
+.cr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.cr h3 {
+  width: 36px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fff;
+  background-color: rgb(220, 120, 11);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.cr h3:hover {
+  transition: 0.5s;
+  background-color: red;
+}
+
+.cd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.p-0 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #dcb119;
+  line-height: 24px;
+  letter-spacing: 20%;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding-top: 111px;
+}
+
+.h-4 {
+  font-family: Philosopher;
+  font-weight: 700;
+  font-size: 31.25px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.p-4 {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 20px;
+}
+
+.crd-1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.era h1 {
+  font-family: Philosopher;
+  font-weight: 700;
+  font-size: 31.25px;
+  color: black;
+  line-height: 40.63px;
+  letter-spacing: 0%;
+  width: 555px;
+}
+
+.era p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(173, 166, 166, 0.529);
+  line-height: 24px;
+  letter-spacing: 0%;
+  width: 555px;
+}
+
+.img-02 {
+  background-color: #000;
+  width: 163px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.img-01 {
+  width: 160px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid rgba(177, 173, 173, 0.647);
+}
+
+#phon {
+  background-color: rgb(251, 241, 231);
+}
+
+.re {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tt {
+  padding-top: 30px;
+  font-family: Philosopher;
+  font-weight: 700;
+  font-size: 31.25px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.pp {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+
+.tre {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.ull p {
+  margin: 0 auto;
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.input-1 {
+  width: 750px;
+  height: 75px;
+  border: 1px solid rgba(177, 173, 173, 0.647);
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.but-01 {
+  width: 156px;
+  height: 75px;
+  top: 4877px;
+  left: 939px;
+  opacity: 1;
+  border-radius: 10px;
+  background-color: rgb(220, 120, 11);
+  color: white;
+  border: none;
+}
+
+.but-01:hover {
+  background-color: red;
+  transition: 0.5s;
+}
+
+#input {
+  background-color: rgb(251, 241, 231);
+  padding-top: 200px;
+  padding-bottom: 200px;
+}/*# sourceMappingURL=stayle.css.map */
